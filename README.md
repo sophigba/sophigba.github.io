@@ -28,6 +28,7 @@ Computer Engineering, B.Eng
 ### Active Directory Project
 - impact 1
 - impact 2
+  
 ### C2 Detection using DNS Sinkholing, ART and Splunk.
 - impact 1
 - impact 2
