@@ -1,8 +1,6 @@
-
-
-
-
 # Security Analyst
+
+<a href="https://www.linkedin.com/in/sophia-igba"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 
 ### Education
 Computer Engineering, B.Eng
