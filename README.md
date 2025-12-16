@@ -16,12 +16,13 @@ Computer Engineering, B.Eng
     <img src="https://img.shields.io/badge/-Splunk-000000?&style=for-the-badge&logo=Splunk&logoColor=white" />
    </div>
 
+
 ## Projects
-1. Active Directory Project
+### Active Directory Project
 - impact 1
 - impact 2
   
-2. C2 Detection using DNS Sinkholing, ART and Splunk.
+### C2 Detection using DNS Sinkholing, ART and Splunk.
 - impact 1
 - impact 2
   
