@@ -22,7 +22,7 @@ Computer Engineering, B.Eng
   <img src="https://img.shields.io/badge/-Bash-4EAA25?&style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Bash" />
 </a>
 </div>
-<br><br>
+<br>
 
 ## Projects
 ### Active Directory Project
