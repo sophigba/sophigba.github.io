@@ -15,15 +15,19 @@ Computer Engineering, B.Eng
     <img src="https://img.shields.io/badge/-Wireshark-1679A7?&style=for-the-badge&logo=Wireshark&logoColor=white" /> <a href="https://www.ibm.com/topics/siem" target="_blank">
   <img src="https://img.shields.io/badge/-SIEM-4B0082?&style=for-the-badge&logo=datadog&logoColor=white" alt="Security Information and Event Management (SIEM)"/>
 </a>
+    <a href="https://www.python.org/" target="_blank">
+  <img src="https://img.shields.io/badge/-Python-3776AB?&style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+</a>
+<a href="https://www.gnu.org/software/bash/" target="_blank">
+  <img src="https://img.shields.io/badge/-Bash-4EAA25?&style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Bash" />
+</a>
 </div>
-
 <br><br>
-## Projects
 
+## Projects
 ### Active Directory Project
 - impact 1
 - impact 2
-  
 ### C2 Detection using DNS Sinkholing, ART and Splunk.
 - impact 1
 - impact 2
