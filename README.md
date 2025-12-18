@@ -25,7 +25,7 @@ Computer Engineering, B.Eng
 <br>
 
 ## Projects
-### Active Directory Deployment and Validation.
+### <a href="https://github.com/sophigba/active-directory-deployment-and-validation">Active Directory Deployment and Validation</a>
 - impact 1
 - impact 2
   
