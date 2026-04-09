@@ -90,8 +90,8 @@ em { color: var(--purple-dim); font-style: normal; }
   min-height: 100vh;
   display: flex; flex-direction: column;
   justify-content: center; align-items: flex-start;
-  padding: 6rem 2.5rem 4rem;
-  max-width: 900px; margin: 0 auto;
+  padding: 6rem 4rem 4rem;
+  max-width: 1200px; margin: 0 auto;
   width: 100%;
 }
 
@@ -191,8 +191,8 @@ em { color: var(--purple-dim); font-style: normal; }
 
 /* ─── SECTIONS ─── */
 .section {
-  max-width: 960px; margin: 0 auto;
-  padding: 5rem 2.5rem;
+  max-width: 1200px; margin: 0 auto;
+  padding: 5rem 4rem;
   border-top: 1px solid var(--border);
 }
 
@@ -285,7 +285,7 @@ em { color: var(--purple-dim); font-style: normal; }
 /* ─── STACK ─── */
 .stack-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 1.2rem;
 }
 
@@ -331,7 +331,7 @@ em { color: var(--purple-dim); font-style: normal; }
 /* ─── PROJECTS ─── */
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1.5rem;
 }
 
@@ -527,6 +527,11 @@ em { color: var(--purple-dim); font-style: normal; }
 .footer p:first-child { color: var(--purple); font-weight: 600; }
 
 /* ─── RESPONSIVE ─── */
+@media (max-width: 1024px) {
+  .section { padding: 4rem 2.5rem; }
+  .hero { padding: 5rem 2.5rem 3rem; }
+}
+
 @media (max-width: 768px) {
   .nav-links { display: none; flex-direction: column; position: fixed;
     top: 60px; left: 0; right: 0; background: var(--bg-surface);
@@ -539,13 +544,15 @@ em { color: var(--purple-dim); font-style: normal; }
   .profile-img, .profile-placeholder { margin: 0 auto; }
 
   .contact-grid { grid-template-columns: 1fr; }
+  .timeline { grid-template-columns: 1fr; }
 
+  .section { padding: 3rem 1.5rem; }
   .hero { padding: 5rem 1.5rem 3rem; }
-  .section { padding: 3.5rem 1.5rem; }
 }
 
 @media (max-width: 480px) {
   .stack-grid { grid-template-columns: 1fr 1fr; }
   .projects-grid { grid-template-columns: 1fr; }
   .hero-stats { gap: 1.5rem; }
+  .navbar { padding: 1rem 1.5rem; }
 }
