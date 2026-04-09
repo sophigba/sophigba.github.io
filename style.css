@@ -90,8 +90,7 @@ em { color: var(--purple-dim); font-style: normal; }
   min-height: 100vh;
   display: flex; flex-direction: column;
   justify-content: center; align-items: flex-start;
-  padding: 6rem 4rem 4rem;
-  max-width: 1200px; margin: 0 auto;
+  padding: 6rem 6% 4rem;
   width: 100%;
 }
 
@@ -191,8 +190,8 @@ em { color: var(--purple-dim); font-style: normal; }
 
 /* ─── SECTIONS ─── */
 .section {
-  max-width: 1200px; margin: 0 auto;
-  padding: 5rem 4rem;
+  max-width: 100%; margin: 0 auto;
+  padding: 5rem 6%;
   border-top: 1px solid var(--border);
 }
 
