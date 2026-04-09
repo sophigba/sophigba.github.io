@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sophia Igba | Cloud Engineer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ░░ NAV ░░ -->
+  <nav class="navbar">
+    <div class="nav-logo">[sophiaigba]</div>
+    <ul class="nav-links">
+      <li><a href="#about">about</a></li>
+      <li><a href="#stack">stack</a></li>
+      <li><a href="#projects">projects</a></li>
+      <li><a href="#experience">experience</a></li>
+      <li><a href="#contact" class="nav-cta">hire me</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger">&#9776;</button>
+  </nav>
+
+  <!-- ░░ HERO ░░ -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <p class="terminal-prefix">sophia@cloud:~$</p>
+      <h1>Hello, World. I'm<br /><span class="name-highlight">Sophia Igba</span></h1>
+      <div class="typed-wrapper">
+        <span id="typed-text"></span><span class="cursor">|</span>
+      </div>
+      <p class="hero-sub">
+        Building cloud infrastructure that scales —<br />
+        from <em>provisioning</em> to <em>production</em>.
+      </p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-outline">Let's Connect</a>
+      </div>
+    </div>
+    <div class="hero-stats">
+      <div class="stat"><span class="stat-num">10+</span><span class="stat-label">Projects Deployed</span></div>
+      <div class="stat"><span class="stat-num">AWS</span><span class="stat-label">Certified (in progress)</span></div>
+      <div class="stat"><span class="stat-num">NG</span><span class="stat-label">Abuja, Nigeria</span></div>
+    </div>
+  </section>
+
+  <!-- ░░ ABOUT ░░ -->
+  <section class="section" id="about">
+    <p class="section-num">01 / about</p>
+    <div class="about-grid">
+      <div class="about-img-wrap">
+        <img src="images/profile.jpg" alt="Sophia Igba" class="profile-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'"/>
+        <div class="profile-placeholder">SI</div>
+        <div class="about-tag">
+          <span class="dot"></span> Open to work
+        </div>
+      </div>
+      <div class="about-text">
+        <h2>The engineer <em>behind the terminal.</em></h2>
+        <p>
+          <!-- 👇 EDIT THIS: Replace with your own story -->
+          I'm a Cloud Engineer passionate about building resilient, scalable infrastructure. 
+          I work across AWS, Terraform, and Linux — designing systems that are automated, 
+          secure, and built to last.
+        </p>
+        <p>
+          Based in Abuja, Nigeria, I'm on a mission to build world-class cloud solutions 
+          from Africa and prove that great infrastructure has no address.
+        </p>
+ 
+         <!-- ░░ TECH STACK ░░ -->
+  <section class="section" id="stack">
+    <p class="section-num">02 / stack</p>
+    <h2 class="section-title">The stack I <em>deploy with.</em></h2>
+    <div class="stack-grid">
+      <!-- 👇 EDIT THIS: Add/remove skills as needed -->
+      <div class="stack-card">
+        <div class="stack-icon">&#9729;</div>
+        <h3>AWS</h3>
+        <p>EC2, S3, VPC, IAM, RDS, Route 53, Lambda, CloudWatch</p>
+        <div class="skill-bar"><div class="skill-fill" style="width: 60%"></div></div>
+        <span class="skill-level">Intermediate</span>
+      </div>
+      <div class="stack-card">
+        <div class="stack-icon">&#127959;</div>
+        <h3>Terraform</h3>
+        <p>Infrastructure as Code, modules, state management, VPC provisioning</p>
+        <div class="skill-bar"><div class="skill-fill" style="width: 50%"></div></div>
+        <span class="skill-level">Intermediate</span>
+      </div>
+      <div class="stack-card">
+        <div class="stack-icon">&#128039;</div>
+        <h3>Linux</h3>
+        <p>Ubuntu, server administration, shell scripting, Nginx</p>
+        <div class="skill-bar"><div class="skill-fill" style="width: 65%"></div></div>
+        <span class="skill-level">Intermediate</span>
+      </div>
+      <div class="stack-card">
+        <div class="stack-icon">&#128187;</div>
+        <h3>Scripting</h3>
+        <p>Bash, Python — automation, tooling, system maintenance</p>
+        <div class="skill-bar"><div class="skill-fill" style="width: 60%"></div></div>
+        <span class="skill-level">Intermediate</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ PROJECTS ░░ -->
+  <section class="section" id="projects">
+    <p class="section-num">03 / projects</p>
+    <h2 class="section-title">Things I've <em>actually built.</em></h2>
+    <div class="projects-grid">
+
+      <!-- 👇 EDIT THIS: Replace with your real projects -->
+      <div class="project-card featured">
+        <div class="project-badge">Featured</div>
+        <div class="project-icon">&#127959;</div>
+        <div class="project-tags">
+          <span class="tag">Terraform</span><span class="tag">AWS</span><span class="tag">Ansible</span>
+        </div>
+        <h3>3-Tier AWS Architecture</h3>
+        <p>Provisioned a production-grade 3-tier architecture on AWS using Terraform — VPC, public/private subnets, ALBs, EC2 instances, and RDS. Fully automated with Ansible.</p>
+        <ul class="project-checks">
+          <li>Infrastructure as Code</li>
+          <li>RDS MySQL configured</li>
+          <li>Ansible automated setup</li>
+        </ul>
+        <div class="project-links">
+          <a href="#" class="btn-sm">View Live ↗</a>
+          <!-- 👇 EDIT THIS: Link to your GitHub repo -->
+          <a href="https://github.com/sophiaigba" class="btn-sm outline">GitHub ↗</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-icon">&#128027;</div>
+        <div class="project-tags">
+          <span class="tag">Docker</span><span class="tag">Node.js</span><span class="tag">MongoDB</span>
+        </div>
+        <h3>Multi-Container App</h3>
+        <p>Containerized a full-stack application with React frontend, Node.js backend, and MongoDB — 3 containers running simultaneously, deployed on AWS EC2.</p>
+        <ul class="project-checks">
+          <li>3 containers live</li>
+          <li>AWS EC2 deployed</li>
+        </ul>
+        <div class="project-links">
+          <a href="#" class="btn-sm">View Live ↗</a>
+          <a href="https://github.com/sophiaigba" class="btn-sm outline">GitHub ↗</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-icon">&#9749;</div>
+        <div class="project-tags">
+          <span class="tag">Kubernetes</span><span class="tag">k3s</span><span class="tag">Docker</span>
+        </div>
+        <h3>Kubernetes Cluster Deployment</h3>
+        <p>Deployed a multi-node Kubernetes cluster (1 control-plane + 2 workers) — all nodes in Ready state. Managed pod scheduling, services, and orchestration.</p>
+        <ul class="project-checks">
+          <li>3-node cluster</li>
+          <li>All nodes Ready</li>
+        </ul>
+        <div class="project-links">
+          <a href="#" class="btn-sm">View Live ↗</a>
+          <a href="https://github.com/sophiaigba" class="btn-sm outline">GitHub ↗</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ░░ EXPERIENCE ░░ -->
+  <section class="section" id="experience">
+    <p class="section-num">04 / experience</p>
+    <h2 class="section-title">Where I've <em>worked.</em></h2>
+    <div class="timeline">
+
+      <!-- 👇 EDIT THIS: Replace with your real experience -->
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-header">
+            <h3>Cloud Engineer</h3>
+            <span class="timeline-date">2024 – Present</span>
+          </div>
+          <p class="timeline-company">Your Company Name · Port Harcourt, NG</p>
+          <ul class="timeline-duties">
+            <li>Provisioned and managed AWS infrastructure for production workloads.</li>
+            <li>Automated server configuration using Ansible and Terraform.</li>
+            <li>Reduced deployment time by 40% through CI/CD pipeline setup.</li>
+          </ul>
+          <div class="timeline-tags">
+            <span class="tag">AWS</span><span class="tag">Terraform</span><span class="tag">Docker</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-header">
+            <h3>Junior Cloud Engineer</h3>
+            <span class="timeline-date">2023 – 2024</span>
+          </div>
+          <p class="timeline-company">Previous Company · Remote</p>
+          <ul class="timeline-duties">
+            <li>Managed EC2 instances, S3 buckets, and IAM roles on AWS.</li>
+            <li>Containerized legacy applications using Docker and Docker Compose.</li>
+            <li>Wrote Bash scripts to automate routine maintenance tasks.</li>
+          </ul>
+          <div class="timeline-tags">
+            <span class="tag">AWS</span><span class="tag">Linux</span><span class="tag">Bash</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ░░ CONTACT ░░ -->
+  <section class="section" id="contact">
+    <p class="section-num">05 / contact</p>
+    <h2 class="section-title">Let's build <em>something great.</em></h2>
+     <div class="contact-grid">
+      <div class="contact-links">
+        <!-- 👇 EDIT THIS: Replace with your real contact info -->
+        <a href="mailto:sophia@example.com" class="contact-item">
+          <span class="contact-icon">&#9993;</span>
+          <span>thesophiaigba@gmail.com</span>
+        </a>
+        <a href="https://github.com/sophiaigba" target="_blank" class="contact-item">
+          <span class="contact-icon">&#128028;</span>
+          <span>github.com/sophiaigba</span>
+        </a>
+        <a href="https://linkedin.com/in/sophiaigba" target="_blank" class="contact-item">
+          <span class="contact-icon">&#128188;</span>
+          <span>linkedin.com/in/sophiaigba</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ FOOTER ░░ -->
+  <footer class="footer">
+    <p>[sophiaigba]</p>
+    <p> Hosted on GitHub Pages </p>
+    <p>&copy; 2026 Sophia Igba</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
