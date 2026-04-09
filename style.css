@@ -285,7 +285,7 @@ em { color: var(--purple-dim); font-style: normal; }
 /* ─── STACK ─── */
 .stack-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(4, 1fr);
   gap: 1.2rem;
 }
 
@@ -331,7 +331,7 @@ em { color: var(--purple-dim); font-style: normal; }
 /* ─── PROJECTS ─── */
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
 }
 
@@ -415,7 +415,9 @@ em { color: var(--purple-dim); font-style: normal; }
 .btn-sm:hover { opacity: 0.8; text-shadow: none; }
 
 /* ─── TIMELINE (EXPERIENCE) ─── */
-.timeline { position: relative; padding-left: 1.5rem; }
+.timeline { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem; padding-left: 0; }
+.timeline::before { display: none; }
+.timeline-dot { display: none; }
 
 .timeline::before {
   content: "";
